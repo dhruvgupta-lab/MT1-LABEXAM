@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shopping Cart Management</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 850px; margin: 40px auto; padding: 0 18px; line-height: 1.6; }
+    h1 { color: #183153; }
+    a { margin-right: 14px; }
+    .panel { background: #f2f6fa; padding: 18px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Shopping Cart Management</h1>
+  <div class="panel">
+    <p>This page is served from <code>public/index.html</code> using Node.js's built-in FS module.</p>
+    <p>HTTP server routes:</p>
+    <nav>
+      <a href="/">Welcome</a>
+      <a href="/cart">Cart JSON</a>
+      <a href="/about">About</a>
+    </nav>
+  </div>
+  <h2>Sample features</h2>
+  <ul>
+    <li>Node.js HTTP server on port 3000</li>
+    <li>Static HTML file served with <code>fs.readFile()</code></li>
+    <li>Express REST API on port 4000</li>
+    <li>In-memory shopping cart; no database required</li>
+  </ul>
+</body>
+</html>
